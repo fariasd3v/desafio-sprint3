@@ -1,24 +1,14 @@
-<<<<<<< HEAD
 * {
-=======
-*{
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
     margin: 0;
     padding: 0;
     text-decoration: none;
     border: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
 }
 
 body {
     height: 100vh;
     font-family: Arial, sans-serif;
-
 }
 
 #navbar ul {
@@ -35,21 +25,13 @@ body {
 }
 
 #navbar ul li a {
-<<<<<<< HEAD
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
     text-decoration: none;
     color: #3622d2;
     cursor: pointer;
-=======
-    text-decoration: none;
-    color: #333;
-    cursor: pointer;
-    font-weight: 500;
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
     transition: color 0.3s;
-
 }
 
 #navbar ul li a:hover {
@@ -57,29 +39,20 @@ body {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
 .imgcentro main {
     justify-content: center;
     width: 1500px;
-    height: 600;
+    height: 600px; /* Note: '600' is treated as 600px, but it's better to specify units */
 }
 
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
 .ccentro {
     text-align: center;
 }
 
 footer {
-<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     background-color: #003478;
-=======
-    display:flex;
-    justify-content: space-between;
-    background-color: rgb(6, 6, 102);
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
     width: 100%;
     align-items: center;
     padding-left: 30px;
@@ -92,40 +65,32 @@ footer p {
 }
 
 .imgrodape {
-
-<<<<<<< HEAD
     display: flex;
     position: relative;
     padding-right: 1.0rem;
     height: 27px;
-
 }
 
 #logosrodape {
     height: 27px;
-
 }
 
 #logoford {
-    height: 45px
+    height: 45px;
 }
 
 header ul {
     display: flex;
     justify-content: space-between;
-
 }
 
 #imgprincipal {
     width: 1200px;
     height: 600px;
-
 }
-
 
 .containervideo {
     text-align: center;
-
 }
 
 .pai {
@@ -143,26 +108,4 @@ header ul {
     width: 100%;
     gap: 400px;
     height: 1px;
-=======
-display: flex;
-position: relative;
-padding-right: 2.0rem;
-
-}
-
-#logosrodape
-{
-height: 30px;
-
-}
-
-#logoford{
-    height: 55px
-}
-
-header ul{
-display: flex;
-justify-content: space-between;
->>>>>>> fc04f8a458c973629c0eaad540afa51e6b7b179e
-
 }
