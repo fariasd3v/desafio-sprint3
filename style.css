@@ -1,9 +1,16 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    box-sizing: border-box;
+}
 
 body {
-min-height: 100vh;
-
+    height: 100vh;
+    font-family: Arial, sans-serif;
 }
+
 #navbar ul {
     justify-content: center;
     display: flex;
@@ -18,34 +25,87 @@ min-height: 100vh;
 }
 
 #navbar ul li a {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     text-decoration: none;
-    color: #333;
+    color: #3622d2;
     cursor: pointer;
-    font-weight: 500;
     transition: color 0.3s;
-    
 }
 
 #navbar ul li a:hover {
-   color: #007BFF;
-   text-decoration: underline; 
+    color: #007BFF;
+    text-decoration: underline;
 }
 
-.imgcentro main{
+.imgcentro main {
     justify-content: center;
     width: 1500px;
-    height: 600;
-  }
+    height: 600px; /* Note: '600' is treated as 600px, but it's better to specify units */
+}
 
-  .logoford {
+.ccentro {
+    text-align: center;
+}
 
-    
-  }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003478;
+    width: 100%;
+    align-items: center;
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+}
 
-  #rodape div {
+footer p {
+    color: white;
+}
 
-  }
+.imgrodape {
+    display: flex;
+    position: relative;
+    padding-right: 1.0rem;
+    height: 27px;
+}
 
-  .ccentro { 
-text-align: center;
-  }
+#logosrodape {
+    height: 27px;
+}
+
+#logoford {
+    height: 45px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgprincipal {
+    width: 1200px;
+    height: 600px;
+}
+
+.containervideo {
+    text-align: center;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.checkpai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 400px;
+    height: 1px;
+}
