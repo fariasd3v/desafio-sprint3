@@ -42,7 +42,7 @@ body {
 .imgcentro main {
     justify-content: center;
     width: 1500px;
-    height: 600px; /* Note: '600' is treated as 600px, but it's better to specify units */
+    height: 600px;
 }
 
 .ccentro {
@@ -108,4 +108,89 @@ header ul {
     width: 100%;
     gap: 400px;
     height: 1px;
+}
+
+/*
+=============================================
+  CSS do Contêiner dos Cards (A parte nova!)
+=============================================
+*/
+.card-container {
+    display: flex; /* ATIVA O FLEXBOX! */
+    justify-content: center; /* Centraliza os cards no contêiner */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a linha de baixo em telas pequenas */
+    gap: 20px; /* A MÁGICA ACONTECE AQUI: Adiciona um espaço de 20px entre os cards */
+    padding: 20px; /* Adiciona um espaço nas bordas do contêiner */
+}
+
+
+/* =============================================
+  CSS do Card (O mesmo de antes, sem alterações)
+=============================================
+*/
+/* Importando uma fonte para um visual mais moderno (Opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.card-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #0056b3;
 }
